@@ -1,0 +1,29 @@
+{
+  "name": "new-version-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram polling bot with todo reminders and weather lookup",
+  "private": true,
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "check": "node --check index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "polling",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
